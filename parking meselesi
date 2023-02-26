@@ -1,0 +1,22 @@
+double umumi_mebleg = 0;
+double faiz1 = 0.8;
+double faiz2 = 0.5;
+double faiz3 = 0.25;
+double saat = 5;
+
+if (saat <= 3)
+{
+    umumi_mebleg = saat;
+    Console.Writeline(umumi_mebleg;
+    
+}
+else if (saat > 5 && saat <= 8)
+{
+    umumi_mebleg = 3 + faiz1 * (saat - 3):
+    Console.Writeline(umumi_mebleg);
+}
+else if ( saat > 5 && saat <= 8)
+{
+    umumi_mebleg = 4.6 + faiz2 * (saat - 5);
+    Console.Writeline(umumi_mebleg);
+}
